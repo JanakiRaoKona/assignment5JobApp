@@ -1,0 +1,13 @@
+.salary-label {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.salary-input {
+  height: 20px;
+  width: 20px;
+  background: none;
+  border: none;
+  outline: none;
+}

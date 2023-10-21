@@ -1,0 +1,13 @@
+.checkbox-label {
+  color: #f8fafc;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.check-box-input {
+  height: 20px;
+  width: 20px;
+  background: none;
+  border: none;
+  outline: none;
+}
