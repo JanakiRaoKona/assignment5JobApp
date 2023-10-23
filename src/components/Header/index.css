@@ -78,5 +78,8 @@
     outline: none;
     border: none;
     border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
   }
 }

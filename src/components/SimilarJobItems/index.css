@@ -1,8 +1,9 @@
-.job-item-container {
+.job-item-container-similar-jobs {
   background-color: #202020;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 16px;
+  margin: 20px;
 }
 
 .jobs {
@@ -50,9 +51,9 @@
   justify-content: center;
   align-items: center;
 }
-.job-third-container {
+.job-third-container-similar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 10px;
 }
@@ -60,6 +61,7 @@
   color: #f1f5f9;
   height: 25px;
   width: 25px;
+  margin-left: 10px;
 }
 .job-location-name-employ-type {
   color: #f1f5f9;

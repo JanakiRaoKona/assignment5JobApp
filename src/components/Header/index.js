@@ -15,11 +15,13 @@ const Header = props => {
   return (
     <div className="header-container">
       <nav className="header-nav-container">
-        <img
-          className="header-web-site-logo"
-          src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-          alt="website logo"
-        />
+        <Link to="/" className="nav-link">
+          <img
+            className="header-web-site-logo"
+            src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
+            alt="website logo"
+          />
+        </Link>
         <div className="mobile-icon-container">
           <Link to="/" className="nav-link">
             <AiFillHome className="home-icon" />
