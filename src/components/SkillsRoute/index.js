@@ -5,8 +5,10 @@ const SkillsRoute = props => {
   const {imageUrl, name} = skillSet
   return (
     <li className="skills-list">
-      <img src={imageUrl} alt={name} className="skill-image" />
-      <p className="skills-name">{name}</p>
+      <nav className="skills-list">
+        <img src={imageUrl} alt={name} className="skill-image" />
+        <h1 className="skills-name">{name}</h1>
+      </nav>
     </li>
   )
 }

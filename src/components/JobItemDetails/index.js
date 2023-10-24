@@ -111,7 +111,7 @@ class JobItemDetails extends Component {
     const {description, imageUrl} = lifeAtCompany
 
     return (
-      <div className="job-item-details-container">
+      <nav className="job-item-details-container">
         <div className="job-item-container">
           <div className="jobs-first-container">
             <div className="jobs-second-container">
@@ -169,23 +169,26 @@ class JobItemDetails extends Component {
             </ul>
           </div>
           <div className="life-at-company-container">
-            <div>
-              <h1 className="job-des-heading">Life at Company</h1>
-              <p className="job-des-paragraph">{description}</p>
-              <img
-                src={imageUrl}
-                alt="life at company"
-                className="life-at-image"
-              />
-            </div>
+            <ul>
+              <li>
+                <h1 className="job-des-heading">Life at Company</h1>
+                <p className="job-des-paragraph">{description}</p>
+                <img
+                  src={imageUrl}
+                  alt="life at company"
+                  className="life-at-image"
+                />
+              </li>
+            </ul>
           </div>
         </div>
+        <h1 className="job-des-heading">Similar Jobs</h1>
         <ul className="similar-jobs-container">
           {similarJobs.map(eachItem => (
             <SimilarJobItems similarJobItems={eachItem} key={eachItem.id} />
           ))}
         </ul>
-      </div>
+      </nav>
     )
   }
 
@@ -206,7 +209,7 @@ class JobItemDetails extends Component {
       />
       <h1 className="jobs-oops-heading">Oops! Something Went Wrong</h1>
       <p className="jobs-oops-paragraph">
-        We cannot seem to find the page your looking for.
+        We cannot seem to find the page you are looking for
       </p>
       <button
         type="button"

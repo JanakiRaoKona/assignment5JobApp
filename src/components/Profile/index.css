@@ -47,3 +47,8 @@
   font-family: 'Roboto';
   font-weight: 400;
 }
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  list-style: none;
+}

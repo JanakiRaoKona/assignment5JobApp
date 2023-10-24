@@ -187,3 +187,8 @@
     max-width: 500px;
   }
 }
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  list-style: none;
+}

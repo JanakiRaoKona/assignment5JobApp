@@ -175,7 +175,7 @@ class Jobs extends Component {
       />
       <h1 className="jobs-oops-heading">Oops! Something Went Wrong</h1>
       <p className="jobs-oops-paragraph">
-        We cannot seem to find the page your looking for.
+        We cannot seem to find the page you are looking for
       </p>
       <button
         type="button"

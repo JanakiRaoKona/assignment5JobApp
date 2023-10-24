@@ -48,11 +48,13 @@ class Profile extends Component {
     const {profileBio} = this.state
     const {name, profileImageUrl, shortBio} = profileBio
     return (
-      <div className="profile-container">
-        <img src={profileImageUrl} alt="profile" />
-        <p className="name-rahul">{name}</p>
-        <p className="profile-bio">{shortBio}</p>
-      </div>
+      <ul className="profile-container">
+        <li>
+          <img src={profileImageUrl} alt="profile" />
+          <h1 className="name-rahul">{name}</h1>
+          <p className="profile-bio">{shortBio}</p>
+        </li>
+      </ul>
     )
   }
 
